@@ -36,12 +36,6 @@ cd audio_to_srt
 
 2. 安装依赖（请按照顺序在终端运行）：
 ```bash
-apt-get update #在云电脑上运行必要
-apt-get install -y python3 python3-pip #在云电脑上运行必要
-apt install python3.11-venv #在云电脑上运行必要
-python3 -m venv venv #在云电脑上运行必要
-source venv/bin/activate #在云电脑上运行必要
-
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 pip install -U openai-whisper
 pip install git+https://github.com/openai/whisper.git
