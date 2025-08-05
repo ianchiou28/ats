@@ -4,7 +4,7 @@
 
 ## 功能特点
 
-- 支持 .wav、.mp3 等常见音频格式
+- 支持 .wav、.mp3、mp4 等常见音视频格式
 - 自动检测 GPU 可用性，支持 CUDA 加速
 - 提供三种转换脚本：
   - `atb.py`: audio to both srt and txt, 同时生成 .srt 和 .txt 文件
