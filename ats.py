@@ -74,7 +74,7 @@ def generate_srt(audio_path: str, model_name: str = "base"):
 
 if __name__ == '__main__':
     # --- 设定区 ---
-    AUDIO_FILE = "vv_moon.wav"  # 音频文件路径 (可以是 .wav, .mp3 等格式)
+    AUDIO_FILE = "audio.wav"  # 音频文件路径 (可以是 .wav, .mp3 等格式)
     # 模型选项 (由小到大): tiny, base, small, medium, large, large-v2, large-v3
     MODEL_SIZE = "large-v3"
     
